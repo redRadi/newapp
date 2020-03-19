@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=latin-ext');
+body{
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
+    color: black;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+.fingrprint{
+    width: 10%;
+}
+h3{
+    color: #06679E;
+    font-size: 18px;
+    position: absolute;
+    width: 88px;
+    height: 17px;
+    left: 10%;
+    top: 35%;
+}
+body .bg-light{
+    height: 71px;
+    background-color: white !important;
+}
+.button1 .btn-sm{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    position: absolute;
+    width: 258px;
+    height: 42px;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -15%);
+    padding-top: 12px;
+    color:#06ADD1;
+    border-radius: 0;
+}
+.pic img{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 180px;
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url("img/menu-24px 1.png");
+}
+.navbar-light .navbar-toggler{
+    border-color: transparent;
+}
+.navbar-collapse{
+    background-color: #06679E;
+    position: absolute;
+    width: 280px;
+    height: 667px;
+    left:26%;
+    top: 0%;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 5%;
+    color: white;
+    width: 85%;
+    text-align: left;
+}
+.navbar-nav{
+    margin-top: 70px;
+}
+.nav-item{
+    background-color: #0876B5;
+    margin-bottom: 10px;
+    height: 40px;
+    border-left: 10px solid #045583;
+}
+.nav-link{
+    position: relative;
+}
+.close{
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 200;
+    opacity: 1;
+}
+#close{
+    padding-left: 75%;
+    font-size: 40px;
+}
+.row{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    left: 9%;
+    top: 25%;
+}
+.col-sm-6{
+    width: 50%;
+}
+.background{
+    position: absolute;
+    left: 7%;
+    width: 60px;
+    height: 40px;
+    background: #FFFFFF;
+}
+.img{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 37%;
+    top: 14%;
+    z-index: 1;
+}
+.img1{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 37%;
+    top: 23%;
+    z-index: 1;
+}
+.content h3{
+    position: absolute;
+    top: 30%;
+    left: 7%;
+    width: 124px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 90%;
+    color: #06ADD1;
+
+}
+.content p{
+    position: absolute;
+    top: 40%;
+    width: 124px;
+    height: 57px;
+    left: 7%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 90%;
+    color: #06679E;
+}
+.background1{
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    background: #FFFFFF;
+}
+.content1 h3{
+    position: absolute;
+    width: 141px;
+    height: 57px;
+    top: 30%;
+    left: 7%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 90%;
+    color: #06ADD1;
+
+}
+.content1 p{
+    position: absolute;
+    width: 124px;
+    height: 57px;
+    top: 40%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 90%;
+    color: #06679E;
+}
+
+
+@media (min-width: 786px){
+    .navbar-collapse{
+        position: absolute;
+        left: 30%;
+        background-color: transparent;
+        height: 87px;
+    }
+    .navbar-nav{
+        margin-top: 0;
+    }
+    .navbar-nav li{
+        margin-right: 20px;
+    }
+    .nav-item{
+        background-color: transparent;
+        border: none;
+        width: 100%;
+        height: 48px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: #C4C4C4;
+        font-size: 19px;
+        width: 123px;
+        text-align: center;
+    }
+    .fingrprint{
+        width: 5%;
+    }
+    h3{
+        left: 7%;
+        top: 26%;
+        font-size: 27px;
+    }
+    .close{
+        display: none;
+    }
+    .col-md-4{
+        display: inline-block;
+        width: 30%;
+    }
+    .container{
+        display: flex;
+        flex-flow: row-reverse;
+        height: 100%;
+    }
+    .row{
+        width: 100%;
+        height: 70%;
+        left: 7%;
+    }
+    .background , .background1{
+        width: 93px;
+        height: 71px;
+        left: 0;
+    }
+    .background img , .background1 img{
+        width: 60px;
+        height: 60px;
+    }
+    .content h3, .content1 h3{
+        top: 35%;
+        left: 0%;
+        font-size: 18px;
+        width: 100%;
+    }
+    .content p, .content1 p{
+        top: 50%;
+        left: 0;
+        font-size: 16px;
+        width: 60%;
+    }
+}

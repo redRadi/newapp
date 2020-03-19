@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style-login.css">
+    <script src="https://kit.fontawesome.com/c1077fe4b9.js" crossorigin="anonymous"></script>
+    <title>Log-In</title>
+</head>
+<body>
+     <!--Navigation-->  
+     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top dropright">
+        <div class="fingrprint text-center">
+            <a href="index.html">
+                <img src="img/fingerprint-24px.svg" alt="">
+                <h3>newapp</h3>
+            </a>
+        </div>
+        <button class="navbar-toggler btn-link" type="button" data-toggle="collapse" data-target="#navbarResponsive" >
+            <span class="navbar-toggler-icon" onclick='myFunction("block")'></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                <span id="close" aria-hidden="true" onclick='myFunction("none")'>&times;</span>
+            </button>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="home.html">home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="about.html">about us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="service.html">service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="login.html">log in</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<!-- End Navigation-->
+<!--Body Start-->
+    <h1>My Account</h1>
+    <div class="svg"></div>
+    <div class="svg1"></div>
+    <div class="login">
+        <form action="#">
+            <label for="user"> Username or email address *</label>
+            <input type="name">
+            <br>
+            <label for="passord"> Password *</label>
+            <br>
+            <input type="password">
+            <div class="button text-center">
+                <a class="btn btn-light btn-sm" href="home.html">LOG IN</a>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="pass" name="passord" value="pass">
+                <label for="vehicle1"> Remember me</label>
+            </div>
+            <label class="lostpass" for="lost"> <a href="#">Lost your password?</a></label>
+        </form>
+    </div>
+    <div class="registration">
+        <form action="#">
+            <label for="user">Username</label>
+            <br>
+            <input type="text"><br>
+            <label for="emai">Email address</label>
+            <br>
+            <input type="text"> <br>
+            <label for="pass">Password</label>
+            <br>
+            <input type="password">
+            <div class="button text-center">
+                <a class="btn btn-light btn-sm" href="home.html">REGISTER</a>
+            </div>
+        </form>
+    </div>
+<!--Body End-->
+    
+
+    <script>
+        function myFunction(a) {
+            var x = document.getElementById("navbarResponsive");
+            x.style.display = a;
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+    
+</body>
+</html>
